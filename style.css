@@ -154,3 +154,32 @@ body{
         left: 59%;
     }
 }
+@media only screen and (max-width:312px) {
+    .cont{
+        width: 250px;
+    }
+    #time{
+        font-size: 35px;
+    }
+    #date{
+        font-size: 15px;
+    }
+    .after{
+        font-size: 15px;
+    }
+    .s1{
+        position: absolute;
+        top: 60%;
+        left: 13%;
+    }
+    .s2{
+        position: absolute;
+        top: 60%;
+        left: 35%;
+    }
+    .s3{
+        position: absolute;
+        top: 60%;
+        left: 59%;
+    }
+}
