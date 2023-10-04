@@ -9,7 +9,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 95vw;
+    width: 100vw;
     height: 100vh;
     background-image: url(wp9733314.jpg);
     background-size: cover;
@@ -54,4 +54,103 @@ body{
     position: absolute;
     top: 65%;
     left: 57%;
+}
+@media only screen and (max-width:510px) {
+    .cont{
+        width: 450px;
+    }
+    .s1{
+        position: absolute;
+        left: 18%;
+    }
+    .s3{
+        position: absolute;
+        left: 58%;
+    }
+}
+@media only screen and (max-width:462px) {
+    .cont{
+        width: 400px;
+    }
+    .s1{
+        position: absolute;
+        left: 12%;
+    }
+    .s2{
+        position: absolute;
+        left: 35%;
+    }
+    .s3{
+        position: absolute;
+        left: 60%;
+    }
+}
+@media only screen and (max-width:405px) {
+    .cont{
+        width: 350px;
+    }
+    #time{
+        font-size: 45px;
+    }
+    .s1{
+        position: absolute;
+        left: 10%;
+    }
+    .s2{
+        position: absolute;
+        left: 34.5%;
+    }
+    .s3{
+        position: absolute;
+        left: 60%;
+    }
+}
+@media only screen and (max-width:375px) {
+    .cont{
+        width: 330px;
+    }
+    #time{
+        font-size: 40px;
+    }
+    .s1{
+        position: absolute;
+        left: 10%;
+    }
+    .s2{
+        position: absolute;
+        left: 33%;
+    }
+    .s3{
+        position: absolute;
+        left: 58%;
+    }
+}
+@media only screen and (max-width:330px) {
+    .cont{
+        width: 300px;
+    }
+    #time{
+        font-size: 35px;
+    }
+    #date{
+        font-size: 15px;
+    }
+    .after{
+        font-size: 15px;
+    }
+    .s1{
+        position: absolute;
+        top: 60%;
+        left: 13%;
+    }
+    .s2{
+        position: absolute;
+        top: 60%;
+        left: 35%;
+    }
+    .s3{
+        position: absolute;
+        top: 60%;
+        left: 59%;
+    }
 }
